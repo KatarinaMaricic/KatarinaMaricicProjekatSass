@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Audi</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="stilovi/stil.css">
+	
+	<!-- JQuery skripta -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+
+<header id="site_header">
+	<img src="images/Audi-Logo_2016@2x.png" alt="logo">
+	<div class="navbar">
+	<ul>
+		<li><a href="#banner">Homepage</a></li>		
+		<li><a href="#aboutus" class="about">About us</a>
+			<div class="dropdown">
+				<ul>
+					<li><a href="#">Our team</a></li>
+					<li><a href="#">Leadership</a></li>
+					<li><a href="#">Partners</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a href="#products">Products</a></li>
+		<li><a href="#contactus" id="last">Contact us</a></li>
+	</ul>
+	</div>
+	<button class="hamburger">&#9776;</button>
+	<button class="cross">&#735;</button>
+</header>
+
+
+	<section id="banner">
+	<div class="slider">
+		
+		<div class="prikaz slide">
+
+			<div class="sadrzaj">
+				<p class="slide mali_naslov">New arrival</p>
+				<h1 class="slide">Expectations put limitations on possibilities.</h1>
+				<p class="slide opis">The Audi Q8 offers a unique performance that blends sport and utility into a momentous SUV design.</p>
+			</div>
+			
+		</div>
+
+		<div class="prikaz slide">
+
+			<div class="sadrzaj">
+				<p class="slide mali_naslov">New arrival</p>
+				<h1 class="slide">Expectations put limitations on possibilities.</h1>
+				<p class="slide opis">The Audi Q8 offers a unique performance that blends sport and utility into a momentous SUV design.</p>
+			</div>
+			
+		</div>
+		<div class="polje">
+			<div class="levo" onclick="nextSlide(-1)"></div>
+		</div>
+		<div class="polje">
+			<div class="desno" onclick="nextSlide(1)"></div>
+		</div>
+
+
+	</div>
+
+</section>
+
+<section id="aboutus">
+
+	<article id="prvi_deo">
+		<img src="images/about-us-section.png" alt="orange audi">
+		<p id="kvadrat">a progressive design, a powerful engine.</p>
+	</article>
+
+	<article id="drugi_deo">
+		<p class="mali_naslov">About Q8</p>
+		<h2 class="naslov">Welcome to the 8th dimension. The new Audi Q8</h2>
+		<p id="podnaslov">With its imposing Singleframe in octagonal
+		design, the Audi Q8 presets the new face of
+		the Q family.</p>
+		<p class="tekst">The radiator grille combines with the forward-mounted
+		spoiler and the strongly contoured air inlets to underline
+		its confident look.</p>
+	</article>
+
+</section>
+
+<section id="banner2">
+	<article id="sadrzaj">
+		<p class="mali_naslov">Featured</p>
+		<h2 class="naslov2">Brand new The Audi RSQ8</h2>
+		<p class="tekst2">The RS Q8 gives you the choice: depending on the selected equipment, its
+		 looks are even bolder and sportier to suit your perspnal ambitions.</p>
+	
+		<div id="kartice">
+			<div class="kartica">
+				<p class="naziv">Power output</p>
+				<p class="broj">441 kw</p>
+				<p class="jedinica">(600 hp)</p>
+			</div>
+			<div class="kartica">
+				<p class="naziv">Acceleration</p>
+				<p class="broj">3.8</p>
+				<p class="jedinica">seconds</p>
+			</div>
+			<div class="kartica">
+				<p class="naziv">Torque</p>
+				<p class="broj">800</p>
+				<p class="jedinica">Nm</p>
+			</div>
+		</div>
+	</article>
+</section>
+
+<section id="products">
+
+	<h2>You might take a look...</h2>
+		<article id="container">
+			<div class="kartica_proizvoda">
+				<img class="audi_q3" src="images/product-card-audi-q3.png" alt="audi q3">
+				<p class="opis_slike">5 Seats, 4 Doors</p>
+				<h3>Audi Q3 2020</h3>
+			
+				<div class="prednosti">
+					<img src="images/Path@2x.png" alt="check icon">
+					<p>Includes 300 free km</p>
+				</div>
+
+				<div class="prednosti">
+					<img src="images/Path@2x.png" alt="check icon">
+					<p>Theft Protection</p>
+				</div>
+
+				<div class="prednosti">
+					<img src="images/Path@2x.png" alt="check icon">
+					<p>Non Refundable</p>
+				</div>
+
+				<div class="cena_dugme">
+					<div>
+						<p class="cena">Starting from</p>
+						<p class="iznos">29.999 &euro;</p>
+					</div>
+					<button>Buy Now</button>
+				</div>
+			</div>
+
+		<div class="kartica_proizvoda">
+			<img  class="audi_a4" src="images/product-card-audi-a4.png" alt="audi a4">
+			<p class="opis_slike">5 Seats, 4 Doors</p>
+			<h3>Audi A4 2020</h3>
+
+			<div class="prednosti">
+				<img src="images/Path@2x.png" alt="check icon">
+				<p>Includes 300 free km</p>
+			</div>
+			<div class="prednosti">
+				<img src="images/Path@2x.png" alt="check icon">
+				<p>Theft Protection</p>
+			</div>
+			<div class="prednosti">
+				<img src="images/Path@2x.png" alt="check icon">
+				<p>Non Refundable</p>
+			</div>
+			<div class="cena_dugme">
+				<div>
+					<p class="cena">Starting from</p>
+					<p class="iznos">24.999 &euro;</p>
+				</div>
+				<button>Buy Now</button>
+			</div>
+		</div>
+
+		<div class="kartica_proizvoda">
+			<img class="audi_a3" src="images/product-card-audi-a3.png" alt="audi a3">
+			<p class="opis_slike">5 Seats, 4 Doors</p>
+			<h3>Audi A3 2020</h3>
+
+			<div class="prednosti">
+				<img src="images/Path@2x.png" alt="check icon">
+				<p>Includes 300 free km</p>
+			</div>
+			<div class="prednosti">
+				<img src="images/Path@2x.png" alt="check icon">
+				<p>Theft Protection</p>
+			</div>
+			<div class="prednosti">
+				<img src="images/Path@2x.png" alt="check icon">
+				<p>Non Refundable</p>
+			</div>
+			<div class="cena_dugme">
+				<div>
+					<p class="cena">Starting from</p>
+					<p class="iznos">19.999 &euro;</p>
+				</div>
+				<button>Buy Now</button>
+			</div>
+		</div>
+
+		<div class="kartica_proizvoda">
+			<img class="audi_q7" src="images/product-card-audi-q7.png" alt="audi q7">
+			<p class="opis_slike">5 Seats, 4 Doors</p>
+			<h3>Audi Q7 2020</h3>
+
+			<div class="prednosti">
+				<img src="images/Path@2x.png" alt="check icon">
+				<p>Includes 300 free km</p>
+			</div>
+
+			<div class="prednosti">
+				<img src="images/Path@2x.png" alt="check icon">
+				<p>Theft Protection</p>
+			</div>
+
+			<div class="prednosti">
+				<img src="images/Path@2x.png" alt="check icon">
+				<p>Non Refundable</p>
+			</div>
+
+			<div class="cena_dugme">
+				<div>
+					<p class="cena">Starting from</p>
+					<p class="iznos">39.999 &euro;</p>
+				</div>
+				<button>Buy Now</button>
+			</div>
+		</div>
+		</article>
+</section>
+
+<section id="contactus">
+	<article id="levi_sadrzaj">
+		<div id="tekst_iznad">
+			<p class="mali_naslov">Contact us</p>
+			<h2 class="naslov2">If you have any questions, don't hesitate to contact us.</h2>
+		</div>
+		<img src="images/contact-form-img.png" alt="green audi">
+	</article>
+
+	<form>
+		<input type="text" required placeholder="Enter your name *">
+		<input type="text" required placeholder="Eter your email *">
+		<textarea  required placeholder="Your message *"></textarea>
+
+		<input type="submit" value="SUBMIT">
+	</form>
+
+</section>
+
+
+<footer>
+	<p>&copy; 2020 FSD. ALL RIGHTS RESERVED </p>
+	<div>
+		<p>TERMS OF AGREEMENT</p>
+		<p>PRIVACY POLICY</p>
+	</div>
+</footer>
+
+<!-- Skripte -->
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/hamburger.js"></script>
+
+</body>
+</html>

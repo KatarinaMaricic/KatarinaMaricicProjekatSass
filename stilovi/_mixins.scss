@@ -1,0 +1,64 @@
+// Mixins
+
+@mixin flex($direction, $justify) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    flex-direction: $direction;
+}
+@mixin linkovi($size, $spacing, $height){
+    text-decoration:none;
+    font-family: RobotoCondensed;
+    color: $belaBoja;
+    font-size: $size;
+    letter-spacing: $spacing;
+    line-height: $height;
+}
+@mixin hamburger{
+    visibility: hidden;
+	position: absolute;
+	right: 40px;
+}
+
+@mixin slajder {
+    height: 720px;
+    position: relative;
+}
+@mixin text($family, $size, $height, $spacing, $marginb,$color){
+    font-family: $family;
+    font-size: $size;
+    color: $color;
+    line-height: $height;
+    letter-spacing: $spacing;
+    margin-bottom: $marginb;
+}
+
+@mixin strelice {
+    height: 13px;
+    width: 7px;
+    background-image: url('images/chevron-right@2x.png');
+	background-size: cover;	
+}
+
+@mixin maleSlicice($height, $margin){
+    height: $height;
+    width: 192px;
+    margin: $margin;
+}
+
+@mixin inputi($height){
+    width: 361px;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.15);
+    margin-bottom: 30px;
+    color:$belaBoja;
+    font-family: RobotoCondensed;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    outline: none;
+    height: $height;
+}
